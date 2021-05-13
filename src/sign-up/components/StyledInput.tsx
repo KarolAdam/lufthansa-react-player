@@ -1,7 +1,6 @@
-import styled from "styled-components"
-
+import styled, { createGlobalStyle, css } from 'styled-components';
+import { CommonStyles } from "./CommonStyles"
 export const StyledInput = styled.input`
-    border: 1px solid lightgray;
-    border-radius: 5px;
+    ${CommonStyles};
     margin-bottom: 1rem;
 `

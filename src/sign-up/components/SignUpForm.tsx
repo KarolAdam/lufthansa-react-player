@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
 import { StyledButton } from './StyledButton'
 import { StyledForm } from './StyledForm'
 import { StyledFormHeader } from './StyledFormHeader'
 import { StyledInput } from './StyledInput'
 import { StyledLabel } from './StyledLabel'
 import { StyledWrapper } from './StyledWrapper'
+import React, { useState } from 'react'
+import styled, { createGlobalStyle, css } from 'styled-components';
 
 export const SignUpForm = () => {
     return (
